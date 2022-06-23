@@ -23,10 +23,10 @@ public class Address {
     @Column(name = "zipcode", length = 200, nullable = false)
     private String zipcode;
     @JsonManagedReference
-    @Column(name = "geo", length = 200, nullable = false)
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "geo_id", referencedColumnName = "id")
+    @OneToOne
+   @PrimaryKeyJoinColumn
     private Geo geo;
+
     @OneToOne(mappedBy = "address")
     private User user;
 }

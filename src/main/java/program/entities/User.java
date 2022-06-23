@@ -21,17 +21,16 @@ public class User {
     @Column(name="email", length = 200, nullable = false)
     private String email;
     @JsonManagedReference
-    @Column(name="address", length = 400, nullable = false)
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "address_id", referencedColumnName = "id")
+    @OneToOne
+    @PrimaryKeyJoinColumn
     private Address address;
+
     @Column(name="phone", length = 200, nullable = false)
     private String phone;
     @Column(name="website", length = 200, nullable = false)
     private String website;
     @JsonManagedReference
-    @Column(name="company", length = 200, nullable = false)
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "company_id", referencedColumnName = "id")
+    @OneToOne
+    @PrimaryKeyJoinColumn
     private Company company;
 }
