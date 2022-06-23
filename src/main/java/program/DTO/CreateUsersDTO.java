@@ -6,5 +6,5 @@ import program.entities.User;
 import java.util.List;
 @Data
 public class CreateUsersDTO {
-    List<User> userList;
+    List<CreateUserDTO> userList;
 }

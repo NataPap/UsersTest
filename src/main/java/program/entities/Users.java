@@ -1,10 +1,13 @@
 package program.entities;
 
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Users {
     List<User> userList;
 }

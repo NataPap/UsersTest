@@ -1,11 +1,14 @@
 package program.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name="geos")
 @JsonIgnoreProperties({ "id" })
@@ -16,7 +19,7 @@ public class Geo {
     @Column(name = "lat", length = 200, nullable = false)
     private String lat;
     @Column(name = "lnd", length = 200, nullable = false)
-    private String lnd;
+    private String lng;
     @OneToOne(mappedBy = "geo")
     private Address address;
 }

@@ -1,15 +1,19 @@
 package program.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name="addresses")
-@JsonIgnoreProperties({ "id" })
+
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,9 +26,9 @@ public class Address {
     private String city;
     @Column(name = "zipcode", length = 200, nullable = false)
     private String zipcode;
-    @JsonManagedReference
+
     @OneToOne
-   @PrimaryKeyJoinColumn
+    @JoinColumn(name = "geo_id", referencedColumnName = "id")
     private Geo geo;
 
     @OneToOne(mappedBy = "address")
