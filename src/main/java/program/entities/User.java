@@ -3,6 +3,8 @@ package program.entities;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Pattern;
 
 @Getter
 @Setter
@@ -13,12 +15,12 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name="name", length = 200, nullable = false)
     private String name;
     @Column(name="username", length = 200, nullable = false)
     private String username;
+    @Email(regexp=".+@.+\\..+",message="Please provide a valid email address")
     @Column(name="email", length = 200, nullable = false)
     private String email;
 

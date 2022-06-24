@@ -4,6 +4,8 @@ package program.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import program.DTO.*;
 import program.entities.Address;
@@ -15,14 +17,17 @@ import program.repositories.AddressRepository;
 import program.repositories.CompanyRepository;
 import program.repositories.GeoRepository;
 import program.repositories.UserRepository;
+import program.service.EmailIsValid;
 
 import javax.validation.Valid;
 import java.io.IOException;
-import java.util.ArrayList;
+
 import java.util.List;
+
 
 @RestController
 @RequestMapping
+
 
 public class UserController {
     private final UserRepository userRepository;
@@ -46,13 +51,19 @@ public class UserController {
     }
 
     @PostMapping( "/addUser")
-    public ResponseEntity create(@Valid @RequestBody CreateUserDTO add) throws IOException {
+    public ResponseEntity create(@RequestBody @Valid CreateUserDTO add) throws IOException {
 
         User user =applicationMapper.createUserDTObyUser(add);
         user.setId(add.getId());
         user.setName(add.getName());
         user.setUsername(add.getUsername());
+        boolean flag = EmailIsValid.isValid(add.getEmail());
+        if(flag==true){
         user.setEmail(add.getEmail());
+        } else {
+            System.out.println("Invalid email, user will not be added!");
+            return null;
+        }
         Address address =  applicationMapper.addressDTOByAddress(add.getAddress());
         Geo geo= applicationMapper.geoDTOByGeo(add.getAddress().getGeo());
         geoRepository.save(geo);
@@ -109,7 +120,7 @@ public class UserController {
         return ResponseEntity.ok(HttpStatus.OK);
     }
     @PostMapping( "/addUsersList")
-    public ResponseEntity create(@RequestBody CreateUsersDTO add) throws IOException {
+    public ResponseEntity create( @Valid @RequestBody CreateUsersDTO add) throws IOException {
 
         for (CreateUserDTO userDto: add.getUserList()) {
             try{
