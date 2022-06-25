@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94c02fc1-2708-4f84-b20b-204ee8b1a534" name="Changes" comment="Added Logging Request and Response">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+    <list default="true" id="94c02fc1-2708-4f84-b20b-204ee8b1a534" name="Changes" comment="Added Logging Request and Response in log file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/logging/LoggingRequestAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/logging/LoggingRequestAndResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655841835573</updated>
       <workItem from="1655841839037" duration="31000" />
-      <workItem from="1655884761039" duration="98250000" />
+      <workItem from="1655884761039" duration="100135000" />
     </task>
     <task id="LOCAL-00001" summary="Added methods 'create' in Usercontroller">
       <created>1655957345694</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656094809948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Logging Request and Response in log file">
+      <created>1656198067157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656198067157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +167,8 @@
     <MESSAGE value="Added methods 'create' in Usercontroller" />
     <MESSAGE value="Added validation of email" />
     <MESSAGE value="Added Logging Request and Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Logging Request and Response" />
+    <MESSAGE value="Added Logging Request and Response in log file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Logging Request and Response in log file" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

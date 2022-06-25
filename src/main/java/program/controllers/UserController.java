@@ -51,19 +51,13 @@ public class UserController {
     }
 
     @PostMapping( "/addUser")
-    public ResponseEntity create(@RequestBody @Valid CreateUserDTO add) throws IOException {
+    public ResponseEntity create(@Valid @RequestBody CreateUserDTO add) throws IOException {
 
         User user =applicationMapper.createUserDTObyUser(add);
         user.setId(add.getId());
         user.setName(add.getName());
         user.setUsername(add.getUsername());
-        boolean flag = EmailIsValid.isValid(add.getEmail());
-        if(flag==true){
         user.setEmail(add.getEmail());
-        } else {
-            System.out.println("Invalid email, user will not be added!");
-            return null;
-        }
         Address address =  applicationMapper.addressDTOByAddress(add.getAddress());
         Geo geo= applicationMapper.geoDTOByGeo(add.getAddress().getGeo());
         geoRepository.save(geo);
