@@ -1,5 +1,6 @@
 package program.logging;
 
+import ch.qos.logback.core.rolling.RollingFileAppender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -11,17 +12,24 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.logging.LogManager;
+
 
 @Component
 public class LoggingRequestAndResponse  extends OncePerRequestFilter {
 
     private static final Logger LOGGER= LoggerFactory.getLogger(LoggingRequestAndResponse.class);
 
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
     throws ServletException, IOException{
+
+        //FileInputStream ins = new FileInputStream("./target/logging/logging.log");
+
 ContentCachingRequestWrapper contentCachingRequestWrapper =new ContentCachingRequestWrapper(request);
 ContentCachingResponseWrapper contentCachingResponseWrapper=new ContentCachingResponseWrapper(response);
 long startTime = System.currentTimeMillis();
@@ -42,4 +50,5 @@ contentCachingResponseWrapper.copyBodyToResponse();
         }
         return "";
     }
+
 }
