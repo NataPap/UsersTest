@@ -14,7 +14,6 @@ import javax.persistence.*;
 @JsonIgnoreProperties({ "id" })
 public class Geo {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "lat", length = 200, nullable = false)
     private String lat;

@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import org.springframework.validation.annotation.Validated;
+
 import org.springframework.web.bind.annotation.*;
 import program.DTO.*;
 import program.entities.Address;
@@ -17,7 +17,7 @@ import program.repositories.AddressRepository;
 import program.repositories.CompanyRepository;
 import program.repositories.GeoRepository;
 import program.repositories.UserRepository;
-import program.service.EmailIsValid;
+
 
 import javax.validation.Valid;
 import java.io.IOException;
@@ -59,7 +59,9 @@ public class UserController {
         user.setUsername(add.getUsername());
         user.setEmail(add.getEmail());
         Address address =  applicationMapper.addressDTOByAddress(add.getAddress());
+        address.setId(user.getId());
         Geo geo= applicationMapper.geoDTOByGeo(add.getAddress().getGeo());
+        geo.setId(user.getId());
         geoRepository.save(geo);
         address.setGeo(geoRepository.getReferenceById(geo.getId()));
         addressRepository.save(address);
@@ -124,7 +126,9 @@ public class UserController {
                 user.setUsername(userDto.getUsername());
                 user.setEmail(userDto.getEmail());
                 Address address =  applicationMapper.addressDTOByAddress(userDto.getAddress());
+                address.setId(user.getId());
                 Geo geo= applicationMapper.geoDTOByGeo(userDto.getAddress().getGeo());
+                geo.setId(user.getId());
                 geoRepository.save(geo);
                 address.setGeo(geoRepository.getReferenceById(geo.getId()));
                 addressRepository.save(address);
@@ -132,6 +136,7 @@ public class UserController {
                 user.setPhone(userDto.getPhone());
                 user.setWebsite(userDto.getWebsite());
                 Company company = applicationMapper.companyDTOByCompany(userDto.getCompany());
+                company.setId(user.getId());
                 companyRepository.save(company);
                 user.setCompany(company);
                 userRepository.save(user);

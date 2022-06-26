@@ -13,7 +13,6 @@ import javax.persistence.*;
 @JsonIgnoreProperties({ "id" })
 public class Company {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "name", length = 200, nullable = false)
     private String name;

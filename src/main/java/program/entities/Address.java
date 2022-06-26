@@ -15,7 +15,6 @@ import javax.persistence.*;
 @Table(name="addresses")
 public class Address {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "street", length = 200, nullable = false)
     private String street;
