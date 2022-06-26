@@ -16,7 +16,6 @@ import program.repositories.CompanyRepository;
 import program.repositories.GeoRepository;
 import program.repositories.UserRepository;
 import javax.validation.Valid;
-import java.io.IOException;
 import java.util.List;
 
 
@@ -47,7 +46,7 @@ public class UserController {
     }
 
     @PostMapping( "/addUser")
-    public ResponseEntity create(@Valid @RequestBody CreateUserDTO add) throws IOException {
+    public ResponseEntity create(@Valid @RequestBody CreateUserDTO add) {
         try {
             User user = applicationMapper.createUserDTObyUser(add);
             if (userRepository.existsById(add.getId())) {
@@ -79,7 +78,7 @@ public class UserController {
     }
 
     @PostMapping( "/addUsersList")
-    public ResponseEntity create( @Valid @RequestBody CreateUsersDTO add) throws IOException {
+    public ResponseEntity create( @Valid @RequestBody CreateUsersDTO add) {
 
         for (CreateUserDTO userDto: add.getUserList()) {
             try{
