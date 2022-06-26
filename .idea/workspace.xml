@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c02fc1-2708-4f84-b20b-204ee8b1a534" name="Changes" comment="Changing the ID assignment logic">
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/DTO/GetUserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/DTO/AddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CompanyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/DTO/CompanyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateAddressDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateCompanyDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateGeoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUsersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUsersDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Geo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/logging/LoggingRequestAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/logging/LoggingRequestAndResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/mapper/ApplicationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/mapper/ApplicationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/service/EmailIsValid.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JAVA/hibernatejavavpd912-main",
+    "last_opened_file_path": "D:/JAVA/UsersTest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +61,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "82a3d6107da3bbb51e35102ca5928e8b"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655841835573</updated>
       <workItem from="1655841839037" duration="31000" />
-      <workItem from="1655884761039" duration="112471000" />
+      <workItem from="1655884761039" duration="112767000" />
+      <workItem from="1656282957098" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="Added methods 'create' in Usercontroller">
       <created>1655957345694</created>
@@ -174,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656267419490</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changing the ID assignment logic">
+      <created>1656280259703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656280259703</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changing the ID assignment logic">
+      <created>1656280381832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656280381832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
