@@ -1,20 +1,16 @@
 package program.DTO;
 
 import lombok.Data;
-import program.entities.Address;
-
-
 
 import javax.validation.constraints.Email;
-
 @Data
-public class UserDTO {
+public class GetUserDTO {
     private int id;
     private String name;
     private String username;
-    @Email(regexp=".+@.+\\..+")
     private String email;
-    private Address address;
+    private AddressDTO address;
     private String phone;
     private String website;
+    private CompanyDTO company;
 }

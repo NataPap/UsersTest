@@ -1,7 +1,6 @@
 package program.entities;
 
 import lombok.*;
-
 import java.util.List;
 
 @Getter

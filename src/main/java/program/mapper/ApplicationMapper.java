@@ -1,15 +1,11 @@
 package program.mapper;
 
 import org.mapstruct.Mapper;
-import program.DTO.AddressDTO;
-import program.DTO.CompanyDTO;
-import program.DTO.CreateUserDTO;
-import program.DTO.GeoDTO;
+import program.DTO.*;
 import program.entities.Address;
 import program.entities.Company;
 import program.entities.Geo;
 import program.entities.User;
-
 import java.util.List;
 
 
@@ -25,6 +21,6 @@ public interface ApplicationMapper {
     Company companyDTOByCompany (CompanyDTO companyDTO);
     GeoDTO geoByGeoDTO(Geo geo);
     Geo geoDTOByGeo (GeoDTO geoDTO);
-    List<User> userListByUserDTOList (List<CreateUserDTO> userDTOList);
-    List<CreateUserDTO>userDTOListByUserList (List<User>userList);
+    List<User> userListByUserDTOList (List<GetUserDTO> userDTOList);
+    List<GetUserDTO>userDTOListByUserList (List<User>userList);
 }
