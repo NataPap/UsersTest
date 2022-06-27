@@ -1,0 +1,923 @@
+2022-06-26 01:46:57,263 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 5680 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 01:46:57,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 01:46:57,965 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 01:46:58,028 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2022-06-26 01:46:58,609 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 01:46:58,617 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:46:58,617 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 01:46:58,617 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 01:46:58,745 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 01:46:58,745 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1426 ms
+2022-06-26 01:46:58,916 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 01:46:58,957 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 01:46:59,123 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 01:46:59,209 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 01:46:59,408 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 01:46:59,427 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 01:47:00,112 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 01:47:00,121 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 01:47:00,684 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 01:47:01,584 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:47:01,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 01:47:01,617 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 4.96 seconds (JVM running for 5.395)
+2022-06-26 01:47:42,160 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 01:47:42,161 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 01:47:42,164 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 01:47:50,242 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 17620 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 01:47:50,245 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 01:47:51,018 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 01:47:51,113 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2022-06-26 01:47:51,947 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 01:47:51,956 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:47:51,956 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 01:47:51,956 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 01:47:52,070 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 01:47:52,070 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1757 ms
+2022-06-26 01:47:52,243 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 01:47:52,286 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 01:47:52,426 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 01:47:52,510 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 01:47:52,699 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 01:47:52,718 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 01:47:53,426 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 01:47:53,433 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 01:47:53,892 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 01:47:54,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:47:54,719 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 01:47:54,730 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.002 seconds (JVM running for 5.442)
+2022-06-26 01:50:00,970 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 01:50:00,970 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 01:50:00,971 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 01:50:01,163 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 7,
+    "name": "Clemena DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@rina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 180
+2022-06-26 01:57:32,654 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 01:57:32,655 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 01:57:32,661 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 01:58:49,076 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 10636 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 01:58:49,079 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 01:58:49,862 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 01:58:49,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85 ms. Found 4 JPA repository interfaces.
+2022-06-26 01:58:50,908 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 01:58:50,922 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:58:50,934 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 01:58:50,934 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 01:58:51,117 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 01:58:51,118 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1971 ms
+2022-06-26 01:58:51,295 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 01:58:51,339 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 01:58:51,502 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 01:58:51,603 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 01:58:51,805 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 01:58:51,826 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 01:58:52,623 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 01:58:52,629 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 01:58:53,153 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 01:58:54,023 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 01:58:54,050 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 01:58:54,061 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.505 seconds (JVM running for 5.931)
+2022-06-26 01:59:25,504 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 01:59:25,504 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 01:59:25,505 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 01:59:25,777 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 8,
+    "name": "Clemena DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@rina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 262
+2022-06-26 02:00:27,392 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 02:00:27,394 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 02:00:27,396 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 02:24:37,418 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 29488 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 02:24:37,422 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 02:24:37,427 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 02:24:38,326 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 02:24:38,400 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2022-06-26 02:24:39,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 02:24:39,095 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 02:24:39,095 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 02:24:39,096 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 02:24:39,206 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 02:24:39,206 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1731 ms
+2022-06-26 02:24:39,356 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 02:24:39,400 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 02:24:39,550 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 02:24:39,656 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 02:24:39,840 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 02:24:39,856 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 02:24:40,566 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 02:24:40,573 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 02:24:41,036 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 02:24:41,856 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 02:24:41,880 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 02:24:41,891 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.33 seconds (JVM running for 6.083)
+2022-06-26 02:25:04,336 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 02:25:04,337 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 02:25:04,338 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 02:25:04,527 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-1] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity program.controllers.UserController.create(program.DTO.CreateUserDTO) throws java.io.IOException: [Field error in object 'createUserDTO' on field 'email': rejected value [Rey.Padbergrina.biz]; codes [Email.createUserDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@40c2beac,.+@.+\..+]; default message [Please provide a valid email address]] ]
+2022-06-26 02:25:04,533 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 9,
+    "name": "Clemena DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padbergrina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }; RESPONSE CODE = 400; RESPONSE BODY = ; TIME TAKEN = 184
+2022-06-26 02:26:31,029 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-2] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 9,
+    "name": "Clemena DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padb@ergrina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 102
+2022-06-26 02:28:58,690 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-4] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity program.controllers.UserController.create(program.DTO.CreateUserDTO) throws java.io.IOException: [Field error in object 'createUserDTO' on field 'email': rejected value [Rey.Padb@ergrinabiz]; codes [Email.createUserDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@40c2beac,.+@.+\..+]; default message [Please provide a valid email address]] ]
+2022-06-26 02:28:58,691 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 9,
+    "name": "Clemena DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padb@ergrinabiz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }; RESPONSE CODE = 400; RESPONSE BODY = ; TIME TAKEN = 2
+2022-06-26 02:30:13,122 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 02:30:13,125 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 02:30:13,129 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 21:04:09,731 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 21:04:09,737 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 16876 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 21:04:09,739 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 21:04:10,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 21:04:10,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2022-06-26 21:04:11,141 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 21:04:11,153 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 21:04:11,154 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 21:04:11,154 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 21:04:11,280 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 21:04:11,280 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1496 ms
+2022-06-26 21:04:11,434 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 21:04:11,598 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 21:04:12,100 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 21:04:12,271 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 21:04:12,604 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 21:04:12,630 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 21:04:13,476 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 21:04:13,483 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 21:04:13,926 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 21:04:14,730 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 21:04:14,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 21:04:14,763 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.653 seconds (JVM running for 6.075)
+2022-06-26 21:05:46,896 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 21:05:46,896 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 21:05:46,897 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 21:05:47,127 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,127 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,130 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,140 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,140 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,140 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,146 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,147 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,147 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,155 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,156 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,156 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,161 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,162 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,162 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,172 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,172 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,172 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,178 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,178 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,178 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,187 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] SQL Error: 0, SQLState: 23505
+2022-06-26 21:05:47,187 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8090-exec-1] ПОМИЛКА: повторювані значення ключа порушують обмеження унікальності "companies_pkey"
+  Detail: Ключ (id)=(0) вже існує.
+2022-06-26 21:05:47,188 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8090-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2022-06-26 21:05:47,204 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = POST; REQUEST URI = /addUsersList; REQUEST BODY = {
+  "userList": [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+}; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 298
+2022-06-26 21:11:27,302 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 21:11:27,304 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 21:11:27,308 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 21:12:49,957 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 21:12:49,960 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 26440 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 21:12:49,962 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 21:12:50,707 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 21:12:50,767 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2022-06-26 21:12:51,306 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 21:12:51,313 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 21:12:51,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 21:12:51,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 21:12:51,421 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 21:12:51,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1406 ms
+2022-06-26 21:12:51,563 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 21:12:51,606 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 21:12:51,744 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 21:12:51,852 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 21:12:52,005 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 21:12:52,022 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 21:12:52,731 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 21:12:52,738 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 21:12:53,165 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 21:12:54,110 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 21:12:54,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 21:12:54,156 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 4.654 seconds (JVM running for 5.062)
+2022-06-26 21:13:40,082 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 21:13:40,083 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 21:13:40,084 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 0 ms
+2022-06-26 21:13:40,439 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = POST; REQUEST URI = /addUsersList; REQUEST BODY = {
+  "userList": [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+}; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 342
+2022-06-26 22:42:05,410 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m12s162ms798µs200ns).
+2022-06-26 22:55:43,961 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-3] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.html; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 31
+2022-06-26 22:55:44,001 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/swagger-ui.css; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 9
+2022-06-26 22:55:44,033 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-5] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.css; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 4
+2022-06-26 22:55:44,043 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-7] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/swagger-ui-standalone-preset.js; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 10
+2022-06-26 22:55:44,076 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-6] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/swagger-ui-bundle.js; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 2
+2022-06-26 22:55:44,096 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-8] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/swagger-initializer.js; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 50
+2022-06-26 22:55:44,338 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-10] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/favicon-32x32.png; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 1
+2022-06-26 22:55:44,342 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-9] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs/swagger-config; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"configUrl":"/rest-api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8090/swagger-ui/oauth2-redirect.html","url":"/rest-api-docs","validatorUrl":""}; TIME TAKEN = 8
+2022-06-26 22:55:44,722 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8090-exec-1] Init duration for springdoc-openapi is: 261 ms
+2022-06-26 22:55:44,743 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8090","description":"Generated server url"}],"paths":{"/addUsersList":{"post":{"tags":["user-controller"],"operationId":"create","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUsersDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addUser":{"post":{"tags":["user-controller"],"operationId":"create_1","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUserDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addGeo":{"post":{"tags":["user-controller"],"operationId":"create_2","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateGeoDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addCompany":{"post":{"tags":["user-controller"],"operationId":"create_3","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateCompanyDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addAddress":{"post":{"tags":["user-controller"],"operationId":"create_4","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/AddressDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/":{"get":{"tags":["user-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"$ref":"#/components/schemas/User"}}}}}}}}},"components":{"schemas":{"AddressDTO":{"type":"object","properties":{"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/GeoDTO"}}},"CompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"CreateUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}},"CreateUsersDTO":{"type":"object","properties":{"userList":{"type":"array","items":{"$ref":"#/components/schemas/CreateUserDTO"}}}},"GeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"CreateGeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"CreateCompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"Address":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/Geo"},"user":{"$ref":"#/components/schemas/User"}}},"Company":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"},"user":{"$ref":"#/components/schemas/User"}}},"Geo":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"}}},"User":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/Company"}}}}}}; TIME TAKEN = 303
+2022-06-26 22:55:50,989 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-2] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.html; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 3
+2022-06-26 22:55:51,159 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-3] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs/swagger-config; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"configUrl":"/rest-api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8090/swagger-ui/oauth2-redirect.html","url":"/rest-api-docs","validatorUrl":""}; TIME TAKEN = 2
+2022-06-26 22:55:51,201 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8090","description":"Generated server url"}],"paths":{"/addUsersList":{"post":{"tags":["user-controller"],"operationId":"create","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUsersDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addUser":{"post":{"tags":["user-controller"],"operationId":"create_1","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUserDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addGeo":{"post":{"tags":["user-controller"],"operationId":"create_2","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateGeoDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addCompany":{"post":{"tags":["user-controller"],"operationId":"create_3","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateCompanyDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addAddress":{"post":{"tags":["user-controller"],"operationId":"create_4","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/AddressDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/":{"get":{"tags":["user-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"$ref":"#/components/schemas/User"}}}}}}}}},"components":{"schemas":{"AddressDTO":{"type":"object","properties":{"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/GeoDTO"}}},"CompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"CreateUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}},"CreateUsersDTO":{"type":"object","properties":{"userList":{"type":"array","items":{"$ref":"#/components/schemas/CreateUserDTO"}}}},"GeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"CreateGeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"CreateCompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"Address":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/Geo"},"user":{"$ref":"#/components/schemas/User"}}},"Company":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"},"user":{"$ref":"#/components/schemas/User"}}},"Geo":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"}}},"User":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/Company"}}}}}}; TIME TAKEN = 9
+2022-06-26 23:01:32,306 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:01:32,313 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 23:01:32,387 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 23:01:40,458 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 23:01:40,460 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 8604 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 23:01:40,462 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 23:01:41,410 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 23:01:41,504 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2022-06-26 23:01:42,324 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 23:01:42,332 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:01:42,332 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 23:01:42,333 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 23:01:42,436 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 23:01:42,436 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1919 ms
+2022-06-26 23:01:42,586 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 23:01:42,627 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 23:01:42,767 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 23:01:42,876 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 23:01:43,039 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 23:01:43,056 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 23:01:43,803 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 23:01:43,809 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:01:44,277 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 23:01:45,144 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:01:45,167 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 23:01:45,177 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.289 seconds (JVM running for 5.755)
+2022-06-26 23:02:04,837 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 23:02:04,837 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 23:02:04,839 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2022-06-26 23:02:04,884 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.html; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 31
+2022-06-26 23:02:05,310 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-2] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs/swagger-config; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"configUrl":"/rest-api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8090/swagger-ui/oauth2-redirect.html","url":"/rest-api-docs","validatorUrl":""}; TIME TAKEN = 36
+2022-06-26 23:02:05,642 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8090-exec-3] Init duration for springdoc-openapi is: 279 ms
+2022-06-26 23:02:05,655 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-3] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8090","description":"Generated server url"}],"paths":{"/addUsersList":{"post":{"tags":["user-controller"],"operationId":"create","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUsersDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addUser":{"post":{"tags":["user-controller"],"operationId":"create_1","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUserDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/":{"get":{"tags":["user-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"$ref":"#/components/schemas/User"}}}}}}}}},"components":{"schemas":{"AddressDTO":{"type":"object","properties":{"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/GeoDTO"}}},"CompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"CreateUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}},"CreateUsersDTO":{"type":"object","properties":{"userList":{"type":"array","items":{"$ref":"#/components/schemas/CreateUserDTO"}}}},"GeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"Address":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/Geo"},"user":{"$ref":"#/components/schemas/User"}}},"Company":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"},"user":{"$ref":"#/components/schemas/User"}}},"Geo":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"}}},"User":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/Company"}}}}}}; TIME TAKEN = 311
+2022-06-26 23:02:18,999 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Infinite recursion (StackOverflowError) (through reference chain: program.entities.User["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"])]
+2022-06-26 23:02:19,003 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = GET; REQUEST URI = /; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = ; TIME TAKEN = 215
+2022-06-26 23:08:34,664 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:08:34,665 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 23:08:34,670 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 23:08:42,463 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 23:08:42,463 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 27108 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 23:08:42,467 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 23:08:43,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 23:08:43,611 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2022-06-26 23:08:44,280 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 23:08:44,290 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:08:44,291 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 23:08:44,291 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 23:08:44,402 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 23:08:44,402 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1880 ms
+2022-06-26 23:08:44,542 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 23:08:44,593 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 23:08:44,739 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 23:08:44,852 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 23:08:45,016 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 23:08:45,033 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 23:08:45,759 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 23:08:45,765 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:08:46,230 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 23:08:47,029 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:08:47,053 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 23:08:47,063 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.215 seconds (JVM running for 6.096)
+2022-06-26 23:09:04,174 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 23:09:04,174 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 23:09:04,175 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 23:09:04,224 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.html; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 36
+2022-06-26 23:09:04,640 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-2] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs/swagger-config; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"configUrl":"/rest-api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8090/swagger-ui/oauth2-redirect.html","url":"/rest-api-docs","validatorUrl":""}; TIME TAKEN = 51
+2022-06-26 23:09:04,949 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8090-exec-3] Init duration for springdoc-openapi is: 252 ms
+2022-06-26 23:09:04,964 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-3] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8090","description":"Generated server url"}],"paths":{"/addUsersList":{"post":{"tags":["user-controller"],"operationId":"create","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUsersDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addUser":{"post":{"tags":["user-controller"],"operationId":"create_1","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUserDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/":{"get":{"tags":["user-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"$ref":"#/components/schemas/User"}}}}}}}}},"components":{"schemas":{"AddressDTO":{"type":"object","properties":{"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/GeoDTO"}}},"CompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"CreateUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}},"CreateUsersDTO":{"type":"object","properties":{"userList":{"type":"array","items":{"$ref":"#/components/schemas/CreateUserDTO"}}}},"GeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"Address":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/Geo"},"user":{"$ref":"#/components/schemas/User"}}},"Company":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"},"user":{"$ref":"#/components/schemas/User"}}},"Geo":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"}}},"User":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/Address"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/Company"}}}}}}; TIME TAKEN = 286
+2022-06-26 23:09:33,835 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Infinite recursion (StackOverflowError) (through reference chain: program.entities.User["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"]->program.entities.Geo["address"]->program.entities.Address["geo"])]
+2022-06-26 23:09:33,837 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = GET; REQUEST URI = /; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = ; TIME TAKEN = 190
+2022-06-26 23:27:10,005 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:27:10,008 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-26 23:27:10,010 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-26 23:41:24,335 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-06-26 23:41:24,337 INFO org.springframework.boot.StartupInfoLogger [main] Starting Main using Java 18.0.1.1 on DESKTOP-MU5A8RV with PID 12340 (D:\JAVA\UsersTest\target\classes started by Admin in D:\JAVA\UsersTest)
+2022-06-26 23:41:24,338 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-26 23:41:25,288 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-26 23:41:25,375 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2022-06-26 23:41:26,191 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-06-26 23:41:26,201 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:41:26,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-26 23:41:26,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-26 23:41:26,461 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-26 23:41:26,462 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2068 ms
+2022-06-26 23:41:26,595 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-26 23:41:26,637 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-26 23:41:26,788 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-26 23:41:26,886 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-26 23:41:27,060 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-26 23:41:27,076 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-26 23:41:27,783 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-26 23:41:27,789 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-26 23:41:28,236 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-26 23:41:29,046 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-06-26 23:41:29,067 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-26 23:41:29,076 INFO org.springframework.boot.StartupInfoLogger [main] Started Main in 5.321 seconds (JVM running for 6.149)
+2022-06-26 23:41:39,938 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-26 23:41:39,938 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-26 23:41:39,939 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2022-06-26 23:41:39,985 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-1] Filter logs: METHOD = GET; REQUEST URI = /swagger-ui/index.html; REQUEST BODY = ; RESPONSE CODE = 304; RESPONSE BODY = ; TIME TAKEN = 33
+2022-06-26 23:41:40,352 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-2] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs/swagger-config; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"configUrl":"/rest-api-docs/swagger-config","oauth2RedirectUrl":"http://localhost:8090/swagger-ui/oauth2-redirect.html","url":"/rest-api-docs","validatorUrl":""}; TIME TAKEN = 49
+2022-06-26 23:41:40,699 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8090-exec-3] Init duration for springdoc-openapi is: 291 ms
+2022-06-26 23:41:40,716 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-3] Filter logs: METHOD = GET; REQUEST URI = /rest-api-docs; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = {"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://localhost:8090","description":"Generated server url"}],"paths":{"/addUsersList":{"post":{"tags":["user-controller"],"operationId":"create","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUsersDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/addUser":{"post":{"tags":["user-controller"],"operationId":"create_1","requestBody":{"content":{"application/json":{"schema":{"$ref":"#/components/schemas/CreateUserDTO"}}},"required":true},"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"string"}}}}}}},"/":{"get":{"tags":["user-controller"],"operationId":"index","responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"array","items":{"$ref":"#/components/schemas/GetUserDTO"}}}}}}}}},"components":{"schemas":{"AddressDTO":{"type":"object","properties":{"street":{"type":"string"},"suite":{"type":"string"},"city":{"type":"string"},"zipcode":{"type":"string"},"geo":{"$ref":"#/components/schemas/GeoDTO"}}},"CompanyDTO":{"type":"object","properties":{"name":{"type":"string"},"catchPhrase":{"type":"string"},"bs":{"type":"string"}}},"CreateUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}},"CreateUsersDTO":{"type":"object","properties":{"userList":{"type":"array","items":{"$ref":"#/components/schemas/CreateUserDTO"}}}},"GeoDTO":{"type":"object","properties":{"lat":{"type":"string"},"lng":{"type":"string"}}},"GetUserDTO":{"type":"object","properties":{"id":{"type":"integer","format":"int32"},"name":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"address":{"$ref":"#/components/schemas/AddressDTO"},"phone":{"type":"string"},"website":{"type":"string"},"company":{"$ref":"#/components/schemas/CompanyDTO"}}}}}}; TIME TAKEN = 327
+2022-06-26 23:41:50,515 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-4] Filter logs: METHOD = GET; REQUEST URI = /; REQUEST BODY = ; RESPONSE CODE = 200; RESPONSE BODY = [{"id":1,"name":"Leanne Graham","username":"Bret","email":"Sincere@april.biz","address":{"street":"Kulas Light","suite":"Apt. 556","city":"Gwenborough","zipcode":"92998-3874","geo":{"lat":"-37.3159","lng":"81.1496"}},"phone":"1-770-736-8031 x56442","website":"hildegard.org","company":{"name":"Romaguera-Crona","catchPhrase":"Multi-layered client-server neural-net","bs":"harness real-time e-markets"}},{"id":2,"name":"Ervin Howell","username":"Antonette","email":"Shanna@melissa.tv","address":{"street":"Victor Plains","suite":"Suite 879","city":"Wisokyburgh","zipcode":"90566-7771","geo":{"lat":"-43.9509","lng":"-34.4618"}},"phone":"010-692-6593 x09125","website":"anastasia.net","company":{"name":"Deckow-Crist","catchPhrase":"Proactive didactic contingency","bs":"synergize scalable supply-chains"}},{"id":3,"name":"Clementine Bauch","username":"Samantha","email":"Nathan@yesenia.net","address":{"street":"Douglas Extension","suite":"Suite 847","city":"McKenziehaven","zipcode":"59590-4157","geo":{"lat":"-68.6102","lng":"-47.0653"}},"phone":"1-463-123-4447","website":"ramiro.info","company":{"name":"Romaguera-Jacobson","catchPhrase":"Face to face bifurcated interface","bs":"e-enable strategic applications"}},{"id":4,"name":"Patricia Lebsack","username":"Karianne","email":"Julianne.OConner@kory.org","address":{"street":"Hoeger Mall","suite":"Apt. 692","city":"South Elvis","zipcode":"53919-4257","geo":{"lat":"29.4572","lng":"-164.2990"}},"phone":"493-170-9623 x156","website":"kale.biz","company":{"name":"Robel-Corkery","catchPhrase":"Multi-tiered zero tolerance productivity","bs":"transition cutting-edge web services"}},{"id":5,"name":"Chelsey Dietrich","username":"Kamren","email":"Lucio_Hettinger@annie.ca","address":{"street":"Skiles Walks","suite":"Suite 351","city":"Roscoeview","zipcode":"33263","geo":{"lat":"-31.8129","lng":"62.5342"}},"phone":"(254)954-1289","website":"demarco.info","company":{"name":"Keebler LLC","catchPhrase":"User-centric fault-tolerant solution","bs":"revolutionize end-to-end systems"}},{"id":6,"name":"Mrs. Dennis Schulist","username":"Leopoldo_Corkery","email":"Karley_Dach@jasper.info","address":{"street":"Norberto Crossing","suite":"Apt. 950","city":"South Christy","zipcode":"23505-1337","geo":{"lat":"-71.4197","lng":"71.7478"}},"phone":"1-477-935-8478 x6430","website":"ola.org","company":{"name":"Considine-Lockman","catchPhrase":"Synchronised bottom-line interface","bs":"e-enable innovative applications"}},{"id":7,"name":"Kurtis Weissnat","username":"Elwyn.Skiles","email":"Telly.Hoeger@billy.biz","address":{"street":"Rex Trail","suite":"Suite 280","city":"Howemouth","zipcode":"58804-1099","geo":{"lat":"24.8918","lng":"21.8984"}},"phone":"210.067.6132","website":"elvis.io","company":{"name":"Johns Group","catchPhrase":"Configurable multimedia task-force","bs":"generate enterprise e-tailers"}},{"id":8,"name":"Nicholas Runolfsdottir V","username":"Maxime_Nienow","email":"Sherwood@rosamond.me","address":{"street":"Ellsworth Summit","suite":"Suite 729","city":"Aliyaview","zipcode":"45169","geo":{"lat":"-14.3990","lng":"-120.7677"}},"phone":"586.493.6943 x140","website":"jacynthe.com","company":{"name":"Abernathy Group","catchPhrase":"Implemented secondary concept","bs":"e-enable extensible e-tailers"}},{"id":9,"name":"Glenna Reichert","username":"Delphine","email":"Chaim_McDermott@dana.io","address":{"street":"Dayna Park","suite":"Suite 449","city":"Bartholomebury","zipcode":"76495-3109","geo":{"lat":"24.6463","lng":"-168.8889"}},"phone":"(775)976-6794 x41206","website":"conrad.com","company":{"name":"Yost and Sons","catchPhrase":"Switchable contextually-based project","bs":"aggregate real-time technologies"}},{"id":10,"name":"Clementina DuBuque","username":"Moriah.Stanton","email":"Rey.Padberg@karina.biz","address":{"street":"Kattie Turnpike","suite":"Suite 198","city":"Lebsackbury","zipcode":"31428-2261","geo":{"lat":"-38.2386","lng":"57.2232"}},"phone":"024-648-3804","website":"ambrose.net","company":{"name":"Hoeger LLC","catchPhrase":"Centralized empowering task-force","bs":"target end-to-end models"}}]; TIME TAKEN = 174
+2022-06-26 23:44:43,909 INFO program.logging.LoggingRequestAndResponse [http-nio-8090-exec-6] Filter logs: METHOD = POST; REQUEST URI = /addUser; REQUEST BODY = {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  }; RESPONSE CODE = 200; RESPONSE BODY = "OK"; TIME TAKEN = 153
