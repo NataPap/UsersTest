@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94c02fc1-2708-4f84-b20b-204ee8b1a534" name="Changes" comment="Changing regex for validation of email">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/DTO/CreateUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,8 @@
       <workItem from="1655841839037" duration="31000" />
       <workItem from="1655884761039" duration="112767000" />
       <workItem from="1656282957098" duration="979000" />
-      <workItem from="1656319785924" duration="2668000" />
+      <workItem from="1656319785924" duration="2720000" />
+      <workItem from="1656322897494" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="Added methods 'create' in Usercontroller">
       <created>1655957345694</created>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656283646693</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Changing regex for validation of email">
+      <created>1656322794688</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656322794688</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
